@@ -1,0 +1,20 @@
+{
+  "config": {
+    "episodes": 1000,
+    "alpha": 0.1,
+    "gamma": 0.99,
+    "epsilon": 1.0,
+    "epsilon_min": 0.05,
+    "epsilon_decay": 0.995,
+    "seed": 0
+  },
+  "greedy_policy_reaches_goal": true,
+  "greedy_path_steps": 10,
+  "optimal_steps": 10,
+  "greedy_return": 91.0,
+  "goal_rate_last_100": 1.0,
+  "black_hole_rate_last_100": 0.0,
+  "first_goal_episode": 3,
+  "converged_at_episode": 70,
+  "mean_return_last_100": 89.6
+}
